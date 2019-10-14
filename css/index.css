@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-weight: lighter;
     list-style-type: none;
+    text-decoration-line: none;
+}
+
+a{
+    color:black
+}
+
+input:focus
+{
+    outline: none;
 }
 
 body
@@ -112,4 +122,33 @@ body
     padding-left: 30rem;
 }
 
-.comments
+.comments-section
+{
+    padding: 0 1em
+}
+
+.read
+{
+    color: #a3a3a3;
+    font-weight: bold;
+}
+
+.comments-section > p > a
+{
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.add-comment
+{
+    border: none;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    
+    padding-left: 1rem;
+    margin: 0em 0em;;
+    width: 100%;
+    height: 3em;
+}
+
+
