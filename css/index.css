@@ -3,6 +3,7 @@
     
     box-sizing: border-box;
     font-weight: lighter;
+    list-style-type: none;
 }
 
 body
@@ -64,10 +65,15 @@ body
 }
 
 /* profile content */
+.profile-banner
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
 
 .profile-pic
 {
-    display: inline-block;
     height:10vh;
     width:10vh;
     background: rgb(218,206,65);
@@ -78,9 +84,32 @@ body
 
 .profile-name
 {
-    display: inline-block;
+    margin-top: 2.5em;
     overflow: hidden;;
     font-weight: bold;
     font-size: 1.1em;
 }
 
+.feedback
+{
+    margin: 0em 0em;
+    padding: 0em 0em;
+    text-align: left;
+    font-size: 0.9em;
+    border-bottom: 1px solid #e2e2e2;;
+}
+
+.feedback > li
+{
+    margin: 0em 0em;
+    padding: 0em 2em;
+    display: inline-block;
+    text-align: right;
+}
+
+.lineup
+{
+    padding-left: 30rem;
+}
+
+.comments
