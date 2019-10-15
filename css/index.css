@@ -50,6 +50,18 @@ body
     margin: auto 1em;
 }
 
+.story-pic
+{
+    height: 14vh;
+    width: 14vh;
+    margin: 0.23vw;
+    border-radius: 100%;
+    background-color: maroon;
+    background-image: url(/img/Screen\ Shot\ 2019-10-15\ at\ 3.30.10\ AM.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
 /* Main content section general rules */
 .content{
     display: grid;
@@ -84,7 +96,7 @@ body
     
 }
 
-.profile-pic
+.profile-pic-background
 {
     height:10vh;
     width:10vh;
@@ -93,6 +105,19 @@ body
     border-radius: 100%;
     margin: 1em 1em;
 }
+
+.profile-pic
+{
+    height: 9vh;
+    width: 9vh;
+    margin: 0.245vw;
+    border-radius: 100%;
+    background-color: maroon;
+    background-image: url(/img/Screen\ Shot\ 2019-10-15\ at\ 3.30.10\ AM.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
 
 .profile-name
 {
@@ -182,6 +207,40 @@ body
     margin: 0em 0em;
     padding: 0em 1.35rem;
 }
+
+/* Post section styling */
+
+.post
+{
+    background-size: contain;
+    background-image: url(/img/Screen\ Shot\ 2019-10-14\ at\ 2.34.52\ AM.png);
+}
+
+
+
+/* related content */
+.img-section
+{
+    height: 45vh;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.related-tag
+{
+    color:#a3a3a3;
+    text-align: center;
+    font-weight: bold;
+
+
+    margin: 0em 0em;
+
+}
+
+
+
+
+
+
 
 
 
