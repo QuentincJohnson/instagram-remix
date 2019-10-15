@@ -237,6 +237,7 @@ body
 .post
 {
     background-size: cover;
+    background-position-y: center;
     
 }
 
