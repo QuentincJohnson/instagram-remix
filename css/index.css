@@ -209,7 +209,7 @@ body
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: -0.6em;
 }
-.button-control > p
+.save,.share,.like
 {
     justify-self: center;
     display: inline-block;
@@ -219,7 +219,21 @@ body
     border-radius: 100%;
     margin: 0.5em 0.5em;
     margin-bottom: 0em;
+    background-size: 3vw;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
+
+/* button pictures */
+.like {background-image: url(/img/icon/icon-like.png);
+background-size: 4vw;}
+
+.save{background-image: url(/img/icon/icon-save.png);}
+
+.share{background-image: url(/img/icon/icon-share.png);
+background-position-y: 2vh;}
+
 
 .more
 {
