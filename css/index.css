@@ -97,7 +97,7 @@ body
     margin: 2em 4em;
 }
 
-.content > article > section
+.content > article 
 {
     height: 70vh;
     background-color: #fff;
@@ -253,8 +253,9 @@ background-position-y: 2vh;}
 
 .post
 {
-    background-size: cover;
-    background-position-y: center;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 
@@ -278,6 +279,13 @@ background-position-y: 2vh;}
 
 @media(max-width: 1180px)
 {
+    body
+    {
+    font-family: 'Roboto', sans-serif;
+    background-color: snow;
+    font-size: 3vw;
+
+    }   
         .top
     {
         text-align: center;
@@ -315,7 +323,6 @@ background-position-y: 2vh;}
 
     .one,.two,.three,.four,.five
     {
-        margin-top: 
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
 
