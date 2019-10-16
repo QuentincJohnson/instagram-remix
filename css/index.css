@@ -94,6 +94,7 @@ body
     display: grid;
     grid-template-columns:6fr 8fr 6fr;
     grid-gap: 4em;
+    margin: 2em 4em;
 }
 
 .content > article > section
@@ -102,7 +103,7 @@ body
     background-color: #fff;
     border: 1px solid #e2e2e2;
     border-radius: 0.3em;
-    margin: 4em 0;
+    margin: 4em ;
 }
 
 .left
@@ -275,7 +276,7 @@ background-position-y: 2vh;}
 
 }
 
-@media(max-width: 768px)
+@media(max-width: 1180px)
 {
         .top
     {
@@ -309,45 +310,24 @@ background-position-y: 2vh;}
     .content{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(15, 1fr);
-        grid-template-areas:
-        "posts"
-        "profile"
-        "post1"
-        "profile1"
-        "post2"
-        "profile2"
-        "post3"
-        "profile3"
-        "post4"
-        "profile4";
         grid-gap: 0em;
     }
-    
-    .content > article > section
+
+    .one,.two,.three,.four,.five
     {
-        height: 70vh;
-        background-color: #fff;
-        border: 1px solid #e2e2e2;
-        border-radius: 0.3em;
-        margin: 4em 0;
-    }
-    
-    .left
-    {
-        margin-left: 0em;
-    }
-    
-    .right
-    {
-        margin-right:4em;
+        margin-top: 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
     }
 
-    .mobile1
+    .adjust-related
     {
-        grid-row: posts;
+        border-top: 2em solid black;
     }
-    
+
+
+
 }
 
 
