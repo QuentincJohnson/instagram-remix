@@ -11,6 +11,12 @@ a{
     color:black
 }
 
+a:hover
+{
+    color: dimgray;
+
+}
+
 /* content pictures */
 
 .meme-joker{background-image: url(/img/content/meme-joker.png);}
@@ -228,6 +234,7 @@ body
     background-position-y: center;
 }
 
+
 /* button pictures */
 .like {background-image: url(/img/icon/icon-like.png);
 background-size: 4vw;}
@@ -253,7 +260,7 @@ background-position-y: 2vh;}
 
 .post
 {
-    background-size: auto;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     
@@ -311,8 +318,7 @@ background-position-y: 2vh;}
     {
         height: 9vh;
         width: 9vh;
-        margin: 1vw;
-    
+        margin: 0.6vw;
     }
 
     .content{
@@ -333,7 +339,17 @@ background-position-y: 2vh;}
         border-top: 2em solid black;
     }
 
+    .like {background-size: 10vw;}
+        
+    .save{background-size:8vw;}
+        
+    .share{background-size:8vw;}
 
+
+    .profile-pic
+{
+    margin: 0.5vw;
+}
 
 }
 
