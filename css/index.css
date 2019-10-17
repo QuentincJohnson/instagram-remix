@@ -19,30 +19,30 @@ a:hover
 
 /* content pictures */
 
-.meme-joker{background-image: url(/img/content/meme-joker.png);}
-.meme-789{background-image: url(/img/content/meme-789.png);}
+.meme-joker{background-image: url(../img/content/meme-joker.png);}
+.meme-789{background-image: url(../img/content/meme-789.png);}
 
-.animals-birdman{background-image: url(/QuentincJohnson/instagram-remix/img/content/animals-birdman.png);}
-.people-man{background-image: url(/img/content/people-man.png);}
+.animals-birdman{background-image: url(../img/content/animals-birdman.png);}
+.people-man{background-image: url(../img/content/people-man.png);}
 
-.meme-mcsonic{background-image: url(/img/content/meme-mcsonic.png);}
-.people-marge{background-image: url(/img/content/people-marge.png)}
+.meme-mcsonic{background-image: url(../img/content/meme-mcsonic.png);}
+.people-marge{background-image: url(../img/content/people-marge.png)}
 
-.badfood-donut{background-image: url(/img/content/badfood-donut.png);}
-.badfood-pepper{background-image: url(/img/content/badfood-pepper.png);}
+.badfood-donut{background-image: url(../img/content/badfood-donut.png);}
+.badfood-pepper{background-image: url(../img/content/badfood-pepper.png);}
 
-.baby-smile1{background-image: url(/img/content/baby-smile1.png);}
-.baby-smile2{background-image: url(/img/content/baby-smile2.png);}
+.baby-smile1{background-image: url(../img/content/baby-smile1.png);}
+.baby-smile2{background-image: url(../img/content/baby-smile2.png);}
 
 /*profile pictures*/
-.profile-joker{background-image: url(/img/profile/joker.png);}
-.profile-chicken{background-image: url(/img/profile/chicken.png);}
-.profile-happy{background-image: url(/img/profile/happy.png);}
-.profile-emoji{background-image: url(/img/profile/emoji.png);}
-.profile-devil{background-image: url(/img/profile/devil.png);}
-.profile-donut{background-image: url(/img/profile/donut.png);}
-.profile-simpson{background-image: url(/img/profile/simpson.png);}
-.profile-lisa{background-image: url(/img/profile/lisa.png);}
+.profile-joker{background-image: url(../img/profile/joker.png);}
+.profile-chicken{background-image: url(../img/profile/chicken.png);}
+.profile-happy{background-image: url(../img/profile/happy.png);}
+.profile-emoji{background-image: url(../img/profile/emoji.png);}
+.profile-devil{background-image: url(../img/profile/devil.png);}
+.profile-donut{background-image: url(../img/profile/donut.png);}
+.profile-simpson{background-image: url(../img/profile/simpson.png);}
+.profile-lisa{background-image: url(../img/profile/lisa.png);}
 input:focus
 {
     outline: none;
