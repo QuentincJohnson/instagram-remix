@@ -236,12 +236,12 @@ body
 
 
 /* button pictures */
-.like {background-image: url(/img/icon/icon-like.png);
+.like {background-image: url(../img/icon/icon-like.png);
 background-size: 4vw;}
 
-.save{background-image: url(/img/icon/icon-save.png);}
+.save{background-image: url(../img/icon/icon-save.png);}
 
-.share{background-image: url(/img/icon/icon-share.png);
+.share{background-image: url(../img/icon/icon-share.png);
 background-position-y: 2vh;}
 
 
